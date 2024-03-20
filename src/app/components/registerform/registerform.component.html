@@ -1,0 +1,20 @@
+<div class="logRegBtn">
+        <div class="logRegCont">
+                <a [routerLink]="['/loginpage']" class="loginBtn">Login</a>
+                <a [routerLink]="['/registerpage']" class="registerBtn">Register</a>
+        </div>
+</div>
+
+<form ngNativeValidate #f="ngForm" (ngSubmit)="addUser() " (ngSubmit)="showElement()">
+        <input placeholder="First Name" class="nameReg mainInput" type="text" [(ngModel)]="newUser.fname"
+                [ngModelOptions]="{standalone: true}" required />
+        <input placeholder="Last Name" class="emailReg mainInput" type="text" [(ngModel)]="newUser.lname"
+                [ngModelOptions]="{standalone: true}" required />
+        <input placeholder="Email" class="userReg mainInput" type="email" [(ngModel)]="newUser.email"
+                [ngModelOptions]="{standalone: true}" required />
+        <input placeholder="Password" class="passReg mainInput" id="passRegid" type="text" [(ngModel)]="newUser.mobile"
+                [ngModelOptions]="{standalone: true}" required />
+        <button  class="submitReg" type="submit">Register</button>
+
+        <app-regpop  [style.display]="elementDisplay" class="popup"></app-regpop>
+</form>

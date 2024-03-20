@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3.2rem;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.leftSecImg {
+    width: 12rem;
+}
+
+.rightSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.menu {
+    display: flex;
+    gap: 4rem;
+    color: #00202D;
+}
+
+.logRegCont {
+    padding: .8rem 2rem;
+    background-repeat: no-repeat;
+    background-image: url('/assets/imgs/menuLogReg.svg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 4rem;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+a.loginBtn {
+    color: #4092E2;
+}
+
+a.registerBtn {
+    color: #085778;
+}
+
+.midSec {
+    width: 100vw;
+    margin: 2rem auto 0rem auto;
+}
+
+.midSec img {
+    width: 100vw;
+}
+
+.lastSec {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+}
+
+.title h4 {
+    line-height: 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #00202D;
+}
+
+.title h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #085778;
+}
+
+.info {
+    width: 26%;
+}
+
+.info p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #00202D;
+}
+
+.simpleTxt {
+    position: absolute;
+    scale: .8;
+    bottom: 58%;
+}

@@ -1,0 +1,20 @@
+<div class="logRegBtn">
+    <div class="logRegCont">
+        <a [routerLink]="['/loginpage']" class="loginBtn">Login</a>
+        <a [routerLink]="['/registerpage']" class="registerBtn">Register</a>
+    </div>
+</div>
+
+<form ngNativeValidate #f="ngForm" (ngSubmit)="addUser()" (ngSubmit)="showElement()">
+    <input placeholder="Username" class="userLogin mainInput" type="username" [(ngModel)]="newUser.username"
+        [ngModelOptions]="{standalone: true}" required />
+    <input placeholder="Password" class="passLogin mainInput" type="password" [(ngModel)]="newUser.password"
+        [ngModelOptions]="{standalone: true}" required />
+    <div class="midSec">
+        <label for="remember"> <input name="remember" type="checkbox"> Remember Me</label>
+        <a href="#">Forgot Password</a>
+    </div>
+    <button class="submitLogin" type="submit">Login</button>
+
+    <app-loginpopup [style.display]="elementDisplay" class="popup"></app-loginpopup>
+</form>

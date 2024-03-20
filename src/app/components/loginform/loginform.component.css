@@ -1,0 +1,111 @@
+.logRegBtn {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+.logRegCont {
+    padding: 1rem 2rem;
+    background-repeat: no-repeat;
+    background-image: url('/assets/imgs/logregBg.svg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 4rem;
+}
+
+.logRegBtn a  {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.logRegBtn a.loginBtn {
+    color: #4092E2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+}
+
+.mainInput {
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 1.6rem;
+    padding-bottom: 1rem;
+    width: 320px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    border: none;
+
+}
+
+.mainInput:focus {
+    outline: none;
+}
+
+.userLogin {
+    margin: 2rem auto;
+    background-image: url('/assets/imgs/inputbg.svg');
+}
+
+.passLogin {
+    margin: 2rem auto 2rem auto;
+    background-image: url('/assets/imgs/inputbg1.svg');
+}
+
+.midSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    gap: 6.4rem;
+    /* overflow: hidden; */
+}
+
+.midSec label,
+a {
+    text-align: center;
+    font-size: .9rem;
+    /* overflow: hidden; */
+}
+
+a {
+    color: #4092E2;
+    text-decoration: none;
+}
+
+.submitLogin {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #FF533C;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.submitLogin:hover {
+    background-color: #ff3e24;
+}
+
+.popup{
+    position: absolute;
+    display: none;
+    left: 30%;
+    top: 30%;
+}

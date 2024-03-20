@@ -1,0 +1,32 @@
+.loginSec{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.leftDiv{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width: 50%;
+    height:70%;
+    padding: 2rem 3.2rem;
+}
+.logoCont{
+    align-self: flex-start;
+}
+.logoCont img{
+    width: 12rem;
+}
+.rightDiv{
+    width: 56%;
+}
+svg{
+    justify-self: flex;
+    /* scale: .70; */
+    width: 44vw;
+}

@@ -1,0 +1,15 @@
+.pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 30vh;
+    background-color:rgb(181, 255, 255);
+    border-radius: 32px;
+    flex-direction: column;
+    border: 2px solid rgb(83, 255, 255);
+}
+
+.first{
+    font-size: 2rem;
+}
